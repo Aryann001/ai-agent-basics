@@ -1,0 +1,22 @@
+{
+  "name": "ai-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/community": "^0.3.42",
+    "@langchain/core": "^0.3.55",
+    "@langchain/groq": "^0.2.2",
+    "@langchain/langgraph": "^0.2.72",
+    "dotenv": "^16.5.0",
+    "zod": "^3.24.4"
+  }
+}
